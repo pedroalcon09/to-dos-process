@@ -1,4 +1,21 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+export const PopUp = keyframes`
+  0% {
+    opacity: 0;
+    transform: scale(0.3)
+  }
+
+  60% {
+    opacity: 0.75;
+    transform: scale(1.05)
+  }
+
+  90% {
+    opacity: 1;
+    transform: scale(1.0)
+  }
+`;
 
 export const StyledHeader = styled.header`
   display: flex;
@@ -47,6 +64,10 @@ export const StyledHeader = styled.header`
 
     button {
       transform: scale(1);
+
+      :hover {
+        transform: scale(1.15);
+      }
     }
   }
 `;

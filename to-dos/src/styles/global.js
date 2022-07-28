@@ -2,11 +2,16 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Roboto&family=Rubik+Mono+One&family=Ubuntu&display=swap");
+    html {
+        overflow-x: hidden;
+    }    
+
     * {
         margin: 0px;
         padding: 0px;
         list-style: none;
         box-sizing: border-box;
+        
     }
 
     :root {

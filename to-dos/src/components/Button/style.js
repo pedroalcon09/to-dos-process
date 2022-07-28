@@ -22,7 +22,7 @@ export const StyledButton = styled.button`
   font-family: Ubuntu, sans-seriff;
 
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     font-weight: 900;
     box-shadow: -1px 4px 33px 11px #000000;
   }
@@ -31,7 +31,7 @@ export const StyledButton = styled.button`
     transform: scale(1.4);
 
     :hover {
-      transform: scale(1.5);
+      transform: scale(1.01);
     }
   }
 

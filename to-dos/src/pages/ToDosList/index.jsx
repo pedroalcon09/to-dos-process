@@ -32,13 +32,13 @@ export default function ToDosList() {
         setToDos(resp.data);
       })
       .catch((err) => console.log(err));
-  }, [toDos]);
+  });
 
   return (
     <StyledToDosList>
       <Header />
       <h2 id="title-todo">
-        To Dos from {user.name}
+        To Dos do(a) {user.name}
         <Button
           width="80px"
           color="var(--grey-1)"

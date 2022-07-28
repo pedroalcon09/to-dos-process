@@ -14,6 +14,7 @@ export default function Header() {
       </span>
 
       <Button
+        id="home"
         width="100px"
         color="var(--grey-1)"
         textColor="var(--white)"
@@ -23,7 +24,7 @@ export default function Header() {
         onClick={() => history.push("/")}
         fontSize="20px"
       >
-        <AiOutlineHome /> Return home
+        <AiOutlineHome /> Retornar home
       </Button>
     </StyledHeader>
   );

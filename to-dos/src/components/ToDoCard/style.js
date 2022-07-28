@@ -37,7 +37,7 @@ export const StyledToDoCard = styled.li`
   }
 
   @media (min-width: 1024px) {
-    width: 40%;
+    width: 35%;
     height: 60vh;
 
     h3,
