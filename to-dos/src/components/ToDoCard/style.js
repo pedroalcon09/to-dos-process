@@ -12,7 +12,7 @@ export const StyledToDoCard = styled.li`
   margin: 15px;
   justify-content: space-around;
   background-color: var(--grey-6);
-  width: 50%;
+  width: 60%;
   height: 200px;
 
   :hover {
@@ -28,5 +28,21 @@ export const StyledToDoCard = styled.li`
 
   @media (min-width: 667px) {
     width: 30%;
+    height: 60vh;
+
+    h3,
+    p {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    width: 40%;
+    height: 60vh;
+
+    h3,
+    p {
+      font-size: 45px;
+    }
   }
 `;

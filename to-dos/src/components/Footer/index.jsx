@@ -2,7 +2,7 @@ import { StyledFooter } from "../Footer/style";
 export default function Footer() {
   return (
     <StyledFooter>
-      <span>
+      <span id="title">
         <h2>TO DOs</h2>
         <h4>List</h4>
       </span>

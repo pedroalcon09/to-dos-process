@@ -12,6 +12,8 @@ export default function ToDosList() {
 
   const [user, setUser] = useState({});
 
+  const [toDos, setToDos] = useState([]);
+
   const history = useHistory();
 
   useEffect(() => {
@@ -21,9 +23,7 @@ export default function ToDosList() {
         setUser(resp.data);
       })
       .catch((err) => console.log(err));
-  }, []);
-
-  const [toDos, setToDos] = useState([]);
+  });
 
   useEffect(() => {
     api

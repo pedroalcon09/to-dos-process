@@ -8,25 +8,45 @@ export const StyledHeader = styled.header`
   width: 100vw;
   background-color: var(--grey-3);
 
-  #buttons {
+  #title {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
+    h2,
+    h4 {
+      margin: 0px 3px;
+    }
+  }
+
+  button {
+    transform: scale(0.75);
+  }
+
+  @media (min-width: 667px) {
+    h2 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 25px;
+    }
     button {
       transform: scale(0.75);
     }
   }
 
-  @media (min-width: 667px) {
-    #buttons {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 40px;
+    }
 
-      button {
-        transform: scale(0.75);
-      }
+    h4 {
+      font-size: 30px;
+    }
+
+    button {
+      transform: scale(1);
     }
   }
 `;

@@ -11,6 +11,7 @@ export const StyledUserCard = styled.li`
   height: fit-content;
   font-size: 20px;
   padding: 20px;
+
   margin: 15px;
   transition: 0.5s;
   background-color: var(--grey-6);
@@ -30,5 +31,9 @@ export const StyledUserCard = styled.li`
   h3,
   h4 {
     margin: 10px 0px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 30%;
   }
 `;

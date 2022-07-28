@@ -21,7 +21,7 @@ export default function UsersList() {
     <StyledUsersList>
       <Header />
       <main>
-        <h2>Users</h2>
+        <h2 id="user-title">Users</h2>
         <ul id="users">
           {users.map((user) => {
             return <UserCard user={user} key={user.id} />;

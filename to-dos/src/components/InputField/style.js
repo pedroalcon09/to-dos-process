@@ -6,7 +6,7 @@ export const StyledInput = styled.div`
   flex-direction: column;
   justify-content: space-around;
   padding: 5px;
-  margin-top: 30px;
+  margin: 20px 0px;
 
   input {
     width: ${(props) => props.width};
@@ -25,5 +25,37 @@ export const StyledInput = styled.div`
     color: red;
     margin: 5px;
     font-size: 13px;
+  }
+
+  @media (min-width: 667px) {
+    label {
+      font-size: 27px;
+    }
+
+    input {
+      transform: scale(1.3);
+      margin: 15px 0px;
+    }
+
+    .error {
+      font-size: 17px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    margin: 50px 0px;
+
+    label {
+      font-size: 40px;
+    }
+
+    input {
+      transform: scale(2);
+      margin: 25px 0px;
+    }
+
+    .error {
+      font-size: 23px;
+    }
   }
 `;

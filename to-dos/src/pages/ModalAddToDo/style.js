@@ -17,7 +17,7 @@ export const Background = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -59,5 +59,16 @@ export const StyledModalAddToDo = styled.div`
   @media (min-width: 667px) {
     width: 40%;
     height: 400px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 50%;
+    height: 500px;
+
+    #modal-header {
+      h2 {
+        font-size: 45px;
+      }
+    }
   }
 `;

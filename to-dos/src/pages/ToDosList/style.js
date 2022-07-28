@@ -6,6 +6,7 @@ export const StyledToDosList = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   width: 100vw;
+  min-height: 100vh;
 
   h2 {
     display: flex;
@@ -27,6 +28,7 @@ export const StyledToDosList = styled.div`
     align-items: center;
     justify-content: space-around;
     width: 100vw;
+    margin: 20px 0px 75px 0px;
   }
 
   @media (min-width: 667px) {
@@ -36,6 +38,16 @@ export const StyledToDosList = styled.div`
 
     h2 {
       flex-direction: row;
+    }
+
+    #title-todo {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #title-todo {
+      font-size: 40px;
     }
   }
 `;
