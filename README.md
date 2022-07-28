@@ -42,7 +42,7 @@
 > Header
 > Footer
 
-## INSTRUÇÕES:
+## LINKS:
 
 #### FRONT END
 
@@ -55,6 +55,8 @@
 #### Vercel
 
 > https://to-dos-pink.vercel.app/
+
+## INSTRUÇÕES:
 
 > Clonar repositório do projeto - link do FRONT END
 
